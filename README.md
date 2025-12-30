@@ -5,10 +5,9 @@ A recursive sorting algorithm for integers.
 It rearranges an array of integers, low to high.
 
 ### How?
-This function will split an array into smaller halves recursively, until we end up with only 1 or 2 integers. At that point the second function, "merge", will go through both halves, one step at a time, and check which number is lower. This part of the array will then be rearranged, in ascending order, and passed back to the parent "merge_sort" function.
+The function "merge_sort" will split an array into smaller halves recursively, until we end up with only 1 or 2 integers. At that point the second function, "merge", will go through both halves, one step at a time, and check which number is lower. This part of the array will then be rearranged, in ascending order, and passed back to the parent "merge_sort" function.
 
 ### Usage
-Terminal:
 gcc merge_sort.c -o ./merge_sort && merge_sort
 
 ### Why?
